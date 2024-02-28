@@ -40,7 +40,8 @@ const Home = () => {
   return (
     <div className="homePageWrapper">
       <div className="formWrapper">
-        <img src="/logo.png" width={180} alt="" />
+        <img src="/logo1.png" style={{mix-blend-mode: "hard-light",
+  border-radius: "12px"}} width={180} alt="" />
         <h4 className="mainLable">Paste invitation Room ID</h4>
 
         <div className="inputGroup">
