@@ -1,0 +1,148 @@
+.homePageWrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.formWrapper {
+  height: fit-content;
+  background-color: #282a36;
+  padding: 20px;
+  border-radius: 12px;
+  width: 400px;
+  max-width: 90%;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.mainLable {
+  margin: 20px 20px 20px 0px;
+}
+
+.inputBox {
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: #eee;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+.joinBtn,
+.leaveBtn {
+  background-color: #4aed88;
+  width: 100px;
+  margin-left: auto;
+}
+
+.joinBtn:hover,
+.leaveBtn:hover {
+  background-color: #2b824c;
+}
+
+.createInfo {
+  text-align: center;
+}
+
+.createNewBtn {
+  color: #4aed88;
+  /* text-decoration: none; */
+}
+.createNewBtn:hover,
+footer a:hover {
+  color: #2b824c;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+footer a {
+  color: #4aeebb;
+  text-decoration: none;
+}
+
+/* ----------------------------------------------------------------- */
+
+.mainWrap {
+  display: grid;
+  grid-template-columns: 230px 1fr;
+}
+
+.aside {
+  /* background-color: #1c1e29; */
+  background-color: rgba(26, 25, 25, 0.801);
+  padding: 15px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.asideInner {
+  flex: 1;
+}
+
+.clientsList {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.client {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.userName {
+  margin-top: 10px;
+}
+.logo {
+  border-bottom: 1px solid #424242;
+  padding: 10px 0;
+  padding-bottom: 20px;
+}
+
+.leaveBtn {
+  width: 100%;
+}
+
+.CodeMirror {
+  min-height: calc(100vh);
+  font-size: 20px;
+  line-height: 1.6;
+  padding-top: 20px;
+}
+
+.textWrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+/* .coverTextArea {
+  width: 100%;
+  height: 100vh;
+  background-color: red;
+  z-index: 99;
+  position: absolute;
+} */
