@@ -93,7 +93,8 @@ const EditorPage = () => {
       <div className="aside">
         <div className="asideInner">
           <div className="logo">
-            <img src="/logo.png" width={150} alt="logo" className="logoImg" />
+            <img src="/logo1.png" style={{mix-blend-mode: "hard-light" ,
+  border-radius: "12px"}} width={150} alt="logo" className="logoImg" />
           </div>
           <br />
           <h3>Connected</h3>
